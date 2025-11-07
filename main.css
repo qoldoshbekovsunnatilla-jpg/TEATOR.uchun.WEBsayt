@@ -434,6 +434,8 @@ color: #c9a54d;
     background-color: #2e2e2e; /* fon rangi (ixtiyoriy) */
     text-align: center;
     padding: 20px 0;
+    display: block;
+    
   }
 
   .dovlat .d1 {
@@ -449,6 +451,7 @@ color: #c9a54d;
     margin-bottom: 10px;
     border-radius: 10px;
     transition: 0.3s ease;
+
   }
   .k{
     display: none;
