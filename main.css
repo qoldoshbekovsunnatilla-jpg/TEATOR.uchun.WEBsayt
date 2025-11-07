@@ -204,6 +204,7 @@ margin-top: 50px;
     height: 45px;
     font-size: 16px;
     margin-top: 70px;
+   
   }
 
   /* Rasmni yashirish */
@@ -229,3 +230,178 @@ position: absolute;
 top: 0;
 left: 0;
 }
+
+
+.otiator{
+  width: 100%;
+  height: 800px;
+  background-color:#333333 ;
+}
+.p1{
+  width: -16px;
+height: 65px;
+opacity: 1;
+font-family: Open Sans Condensed;
+font-weight: 300;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 10%;
+text-align: center;
+text-transform: uppercase;
+margin: auto;
+padding-top: 50px;
+color: #c9a54d;
+
+}
+.p2{
+  width: 445px;
+height: 23px;
+opacity: 1;
+font-family: Open Sans Condensed;
+font-weight: 700;
+font-size: 21px;
+line-height: 100%;
+letter-spacing: 10%;
+text-transform: uppercase;
+color: white;
+padding-top: 150px;
+
+}
+.p3{
+  width: 445px;
+height: 210px;
+opacity: 1;
+font-family: Open Sans;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+color: #FFFFFF;
+padding-top: 40px;
+}
+.p4{
+  width: 355px;
+height: 23px;
+opacity: 1;
+font-family: Open Sans Condensed;
+font-weight: 700;
+font-size: 21px;
+line-height: 100%;
+letter-spacing: 10%;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-left: 50px;
+padding-top: 150px;
+}
+.im1{
+  margin-left: -160px;
+  margin-top: 20px;
+}
+.p5{
+  width: 250px;
+height: 17px;
+opacity: 1;
+font-family: Open Sans Condensed;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 5%;
+color: #c9a54d;
+padding-left: 80px;
+padding-top: 20px;
+}
+.im2{
+  width: 166px;
+height: 102px;
+opacity: 1;
+
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.im3{
+  width: 166px;
+height: 102px;
+opacity: 1;
+
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.im4{
+  width: 350px;
+height: 292px;
+opacity: 1;
+margin-top: 150px;
+}
+
+
+
+@media (max-width: 768px) {
+  .otiator {
+    height: auto;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .p1 {
+    font-size: 36px;
+    padding-top: 30px;
+    letter-spacing: 5%;
+  }
+
+  .p2 {
+    width: 100%;
+    padding-top: 40px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .p3 {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 13px;
+    line-height: 160%;
+  }
+
+  .p4 {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .im2 {
+    width: 140px;
+    height: auto;
+    margin-left: 50px;
+    display: block;
+  }
+
+  .im3 {
+    width: 140px;
+    height: auto;
+   margin-left: 200px;
+   margin-top: -120px;
+  }
+
+  .im4 {
+  
+    display: none;
+  }
+
+  /* Har bir ustun (col) pastma-past joylashadi */
+  .otiator .col-xl-4,
+  .otiator .col-sm-12 {
+    text-align: center;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
