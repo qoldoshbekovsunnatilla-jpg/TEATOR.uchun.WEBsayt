@@ -406,3 +406,66 @@ margin-top: 150px;
 
 
 
+
+
+
+.dovlat{
+  width: 100%;
+  height: 800px;
+  background-color: #333333;
+}
+.d1{
+  width: 398px;
+height: 65px;
+opacity: 1;
+font-family: Open Sans Condensed;
+font-weight: 300;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 10%;
+text-align: center;
+text-transform: uppercase;
+margin: auto;
+color: #c9a54d;
+
+}
+@media (max-width: 576px) {
+  .dovlat {
+    background-color: #2e2e2e; /* fon rangi (ixtiyoriy) */
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .dovlat .d1 {
+    padding-top: 30px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #d4a32c;
+    text-align: center;
+  }
+
+  .dovlat img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+  }
+  .k{
+    display: none;
+  }
+  .dovlat img:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+  }
+
+  .dovlat .row {
+    display: flex;
+    flex-direction: column; /* rasmlar pastma-past chiqadi */
+    align-items: center;    /* markazga joylashadi */
+  }
+
+  .dovlat .col-xl-3,
+  .dovlat .col-sm-12 {
+    width: 90%; /* rasm biroz chetdan bo‘sh joy bilan chiqadi */
+  }
+}
