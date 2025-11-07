@@ -431,7 +431,7 @@ color: #c9a54d;
 }
 @media (max-width: 576px) {
   .dovlat {
-    background-color: #2e2e2e; /* fon rangi (ixtiyoriy) */
+    background-color: #2e2e2e;
     text-align: center;
     padding: 20px 0;
     display: block;
@@ -446,7 +446,7 @@ color: #c9a54d;
     text-align: center;
   }
 
-  .dovlat img {
+  .dovlat .v{
     width: 100%;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -463,12 +463,12 @@ color: #c9a54d;
 
   .dovlat .row {
     display: flex;
-    flex-direction: column; /* rasmlar pastma-past chiqadi */
-    align-items: center;    /* markazga joylashadi */
+    flex-direction: column; 
+    align-items: center;   
   }
 
   .dovlat .col-xl-3,
   .dovlat .col-sm-12 {
-    width: 90%; /* rasm biroz chetdan bo‘sh joy bilan chiqadi */
+    width: 90%; 
   }
 }
