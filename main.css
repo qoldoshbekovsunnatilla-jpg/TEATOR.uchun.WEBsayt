@@ -537,7 +537,7 @@ color: #c9a54d;
 }
 
 
-@media (max-width: 576px\) {
+@media (max-width: 576px) {
   .rs {
     display: none;
   }
