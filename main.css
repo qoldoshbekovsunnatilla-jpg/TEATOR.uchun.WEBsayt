@@ -436,7 +436,7 @@ color: #c9a54d;
     padding: 20px 0;
     display: block;
      width: 100%;
-    height: 600px;
+    height: 800px;
   }
 
   .dovlat .d1 {
@@ -458,10 +458,7 @@ color: #c9a54d;
   .k{
     display: none;
   }
-  .dovlat img:hover {
-    transform: scale(1.03);
-    opacity: 0.9;
-  }
+
 
   .dovlat .row {
     display: flex;
@@ -485,6 +482,7 @@ color: #c9a54d;
 }
 .rasm{
   width: 100%;
+  height: 550px;
 
 }
 @media (max-width: 576px) {
@@ -505,7 +503,87 @@ color: #c9a54d;
     width: 100%;          /* faqat telefonda to‘liq ekran */
     height: auto;
     object-fit: cover;
-    margin: 0 auto;
+    margin: 50px auto;
     border-radius: 0;
+  }
+}
+
+/* .pteator{
+  width: 100%;
+  height: 700px;
+  background-color: #333333;
+}
+.rasm1{
+  width: 200.00001525878906px;
+height: 95.99991607666016px;
+opacity: 1;
+
+  margin-left: 90px;
+  margin-top: 30px;
+}
+.rs1{
+  margin-left: -30px;
+}
+
+@media (max-width: 768px) {
+ 
+  .rs{
+    display: none;
+  }
+  .ts{
+    margin-left: 200px;
+  }
+} */
+
+.pteator {
+  width: 100%;
+  height: 700px;
+  background-color: #333333;
+  text-align: center;
+}
+
+.rasm1 {
+  width: 200px;
+  height: 96px;
+  opacity: 1;
+  margin: 30px 40px;
+}
+
+.rs1 {
+  margin-left: -30px;
+}
+
+/* 📱 Telefon versiyasi (faqat 4 ta ko‘rinsin) */
+@media (max-width: 768px) {
+  .rs {
+    display: none; /* 4 ta rasm yashirinadi */
+  }
+  .d1{
+        font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .ts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* o‘rtaga joylashadi */
+    gap: 20px; /* logolar orasida joy */
+  }
+
+  .rasm1 {
+    margin: 10px;
+    width: 150px; /* biroz kichikroq */
+    height: auto;
+  }
+  .ts{
+    margin-left: 80px;
+  }
+  .ts2{
+     margin-left: 180px;
+     margin-top: -100px;
+  }
+  .pteator {
+    height: auto; /* balandlik avtomatik bo‘lsin */
+    padding: 20px 0;
   }
 }
