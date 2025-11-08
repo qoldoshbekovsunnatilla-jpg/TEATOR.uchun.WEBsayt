@@ -632,6 +632,9 @@ opacity: 1;
   .logos {
     justify-content: center;
     gap: 20px 40px;
+    max-width: 350px; /* markazda qoladi, cheklangan eni */
+    margin: 0 auto;
+    gap: 20px;
   }
 
   .rasm1 {
