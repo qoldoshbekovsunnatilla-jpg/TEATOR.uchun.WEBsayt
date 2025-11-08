@@ -9,7 +9,7 @@ background:
 }
 @media (max-width: 768px) {
 
-  /* Butun teatr qismi */
+
   .teatr {
        width: 100%;
 height: 745px;
@@ -19,13 +19,12 @@ background:
     url('img/2e30ffd33abfac5cd356572ebcffee586047f03e.png') center/cover no-repeat;
   }
 }
- /* Navbar fon */
+
     .navbar {
       background: #33333329;
       padding: 30px 0;
     }
 
-    /* Menyu linklar */
     .navbar-nav .nav-link {
       color: #FFFFFF !important;
       font-weight: 500;
@@ -55,7 +54,7 @@ text-transform: uppercase;
       color: #c9a54d !important;
     }
 
-    /* Telefon raqami */
+
     .phone {
       color: #fff;
       font-weight: bold;
@@ -87,7 +86,7 @@ text-transform: uppercase;
       border-radius: 5px;
     }
 
-    /* Burger knopka qora fonda */
+ 
     .navbar-toggler {
       background-color:#333333D9 !important;
       border: none;
@@ -99,7 +98,6 @@ text-transform: uppercase;
       filter: invert(1);
     }
 
-    /* Mobil menyu fon qora */
     @media (max-width: 991px) {
       .navbar-collapse {
         background:#333333D9;
@@ -112,7 +110,7 @@ text-transform: uppercase;
         text-align: center;
       }
 
-      /* Telefon raqami yuqorida qolsin */
+
       .phone {
         position: absolute;
         right: 15px;
@@ -207,12 +205,11 @@ margin-top: 50px;
    
   }
 
-  /* Rasmni yashirish */
+
   .chaprsm {
     display: none;
   }
 
-  /* Ichidagi ustunlarni ustma-ust joylashtirish */
   .col-xl-7, .col-xl-5 {
     width: 100%;
     text-align: center;
@@ -392,7 +389,6 @@ margin-top: 150px;
     display: none;
   }
 
-  /* Har bir ustun (col) pastma-past joylashadi */
   .otiator .col-xl-4,
   .otiator .col-sm-12 {
     text-align: center;
@@ -489,7 +485,7 @@ color: #c9a54d;
   .dvlt2 {
      width: 100%;
    height: 400px;
-    background-color: #2e2e2e; /* ixtiyoriy fon */
+    background-color: #2e2e2e;
     overflow: hidden;
     padding: 0;
     text-align: center;
@@ -500,7 +496,7 @@ color: #c9a54d;
   }
 
   .dvlt2 img {
-    width: 100%;          /* faqat telefonda to‘liq ekran */
+    width: 100%;         
     height: auto;
     object-fit: cover;
     margin: 50px auto;
@@ -508,85 +504,7 @@ color: #c9a54d;
   }
 }
 
-/* .pteator{
-  width: 100%;
-  height: 700px;
-  background-color: #333333;
-}
-.rasm1{
-  width: 200.00001525878906px;
-height: 95.99991607666016px;
-opacity: 1;
 
-  margin-left: 90px;
-  margin-top: 30px;
-}
-.rs1{
-  margin-left: -30px;
-}
-
-@media (max-width: 768px) {
- 
-  .rs{
-    display: none;
-  }
-  .ts{
-    margin-left: 200px;
-  }
-} */
-
-/* .pteator {
-  width: 100%;
-  height: 700px;
-  background-color: #333333;
-  text-align: center;
-}
-
-.rasm1 {
-  width: 200px;
-  height: 96px;
-  opacity: 1;
-  margin: 30px 40px;
-}
-
-.rs1 {
-  margin-left: -30px;
-}
-
-
-@media (max-width: 768px) {
-  .rs {
-    display: none; 
-  }
-  .d1{
-        font-size: 26px;
-    text-transform: uppercase;
-    text-align: center;
-  }
-  .ts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-    gap: 20px; 
-  }
-
-  .rasm1 {
-    margin: 10px;
-    width: 150px; 
-    height: auto;
-  }
-  .ts{
-    margin-left: 80px;
-  }
-  .ts2{
-     margin-left: 180px;
-     margin-top: -100px;
-  }
-  .pteator {
-    height: auto; 
-    padding: 20px 0;
-  }
-} */
 
 
 
@@ -608,7 +526,7 @@ opacity: 1;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px 80px; /* vertical va horizontal oraliq */
+  gap: 40px 80px;
   margin-top: 40px;
 }
 
@@ -618,10 +536,10 @@ opacity: 1;
   opacity: 1;
 }
 
-/* 📱 Telefon versiyasi */
-@media (max-width: 768px) {
+
+@media (max-width: 576px\) {
   .rs {
-    display: none; /* faqat 4 ta logo qolsin */
+    display: none;
   }
   .d1{
         font-size: 26px;
@@ -632,7 +550,7 @@ opacity: 1;
   .logos {
     justify-content: center;
     gap: 20px 40px;
-    max-width: 350px; /* markazda qoladi, cheklangan eni */
+    max-width: 350px;
     margin: 0 auto;
     gap: 20px;
   }
@@ -641,3 +559,7 @@ opacity: 1;
     width: 140px;
   }
 }
+
+
+
+
