@@ -623,6 +623,11 @@ opacity: 1;
   .rs {
     display: none; /* faqat 4 ta logo qolsin */
   }
+  .d1{
+        font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+  }
 
   .logos {
     justify-content: center;
