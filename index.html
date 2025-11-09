@@ -10,7 +10,7 @@
 <body>
     
 
-    <div class="teatr">
+    <div class="teatr" id="home">
         <div class="container">
             <div class="row">
                    <nav class="navbar navbar-expand-lg ">
@@ -24,11 +24,11 @@
     <!-- Menyu -->
     <div class="collapse navbar-collapse justify-content-center" id="mainNav">
       <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link" href="#">Главная</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">о театре</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Наши постановки</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">партнеры театра</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">контакты</a></li>
+        <li  class="nav-item"><a class="nav-link" href="#home">Главная</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">о театре</a></li>
+        <li class="nav-item"><a class="nav-link" href="#productions">Наши постановки</a></li>
+        <li class="nav-item"><a class="nav-link" href="#partners">партнеры театра</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacts">контакты</a></li>
       </ul>
     </div>
 
@@ -60,7 +60,7 @@
 
     </div>
 
-   <div class="otiator">
+   <div class="otiator" id="about">
      <div class="container"> 
       <div class="row">
           <h1 class="p1">о<span style="color: white;">театре</span></h1>
@@ -87,7 +87,7 @@
    </div>
 
 
-   <div class="dovlat">
+   <div class="dovlat" id="productions">
     <div class="container "> <h1 class="d1">наши<span style="color: white;">постановки</span></h1><br>
       <div class="row g-0 ">
          <div class="col-xl-3 col-sm-12 ">
@@ -110,7 +110,7 @@
    </div>
    
 
-   <div class="dvlt2">
+   <div class="dvlt2" >
     <div class="container">
         <div class="col-xl-12 col-sm-12">
          <img src="img/rating.png" alt="" class="rasm">
@@ -121,7 +121,7 @@
 
 
 
-<div class="pteator">
+<div class="pteator" id="partners">
   <h1 class="d1">
     ПАРТНЕРЫ <span style="color: white;">ТЕАТРА</span>
   </h1>
@@ -141,8 +141,57 @@
 
  
 </div>
+<br>
+<br>
+<br>
+<br>
+<footer class="site-footer">
+    <div class="wrap">
 
+      <div class="big-title" id="contacts">
+        <h1><span class="gold">СТАТЬ</span> МЕЦЕНАТОМ</h1>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
 
+      <div class="footer-inner">
+
+        <div class="left-col">
+          <div class="contacts">
+            <div class="contact-item">+7 (812) 123-45-55</div>
+            <div class="contact-item">+7 (812) 123-45-66</div>
+            <div class="contact-item">INFO@THEATER.RU</div>
+            <div class="contact-item small">Г. САНКТ-ПЕТЕРБУРГ, НЕВСКИЙ 140</div>
+          </div>
+        </div>
+
+        <div class="right-col">
+          <form class="contact-form" onsubmit="return false;">
+            <input class="input" type="text" placeholder="Имя" />
+            <input class="input" type="text" placeholder="Компания" />
+            <textarea class="input textarea" placeholder="Сообщение"></textarea>
+            <input class="input" type="text" placeholder="Телефон" />
+            <input class="input" type="email" placeholder="E-mail" />
+            <div class="note">
+              * Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем и защищаем персональные данные согласно закону ФЗ-52.
+            </div>
+            <button class="btn-send" type="submit">Отправить</button>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="footer-bottom">
+        <div class="left">(c) Все права защищены. Большой театр. 2020</div>
+        <div class="right">Разработано d-e-n.ru</div>
+      </div>
+
+    </div>
+  </footer>
 
 
 </body>
