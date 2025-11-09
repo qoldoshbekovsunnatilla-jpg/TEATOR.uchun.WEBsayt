@@ -185,6 +185,7 @@ margin-top: 50px;
     margin: 80px auto 0;
     text-align: center;
     padding: 0 20px;
+
   }
 
   .hr1 {
@@ -795,4 +796,34 @@ text-transform: uppercase;
     text-align: center;
     font-size: 12px;
   }
+}
+
+.reklama {
+  display: none;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 400px;
+  background-image: url('img/SNTech\ reklama\ banne.png'); /* ← fon rasmi linki */
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  z-index: 9999;
+  text-decoration: none;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff0077;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
 }
