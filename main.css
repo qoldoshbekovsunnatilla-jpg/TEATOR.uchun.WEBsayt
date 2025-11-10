@@ -817,8 +817,8 @@ text-transform: uppercase;
 
 .close-btn {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: -30px;
+  right: 0px;
   background-color: #ff0077;
   color: white;
   border: none;
@@ -826,4 +826,21 @@ text-transform: uppercase;
   border-radius: 6px;
   cursor: pointer;
   font-size: 14px;
+}
+@media (max-width: 768px) {
+  .reklama {
+    width: 90vw;
+    height: auto;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+   
+  }
+
+  .close-btn {
+    top: 8px;
+    right: 8px;
+    font-size: 14px;
+    padding: 5px 10px;
+  }
 }
